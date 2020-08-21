@@ -1,9 +1,10 @@
 /* globals */
 body {
-    margin: 1.6em;
+    margin: 0;
     font-size: 16px;
     font-family: 'Karla', sans-serif;
 }
+
 
 :root {
     --Cyan:hsl(179, 62%, 43%);
@@ -12,6 +13,11 @@ body {
     --GrayishBlue: hsl(218, 22%, 67%);
 }
 /* header */
+
+.head {
+    margin: 1.6em;
+    padding-bottom: 0.7em;
+}
 
 .title {
     font-size: 1.5em;
@@ -29,4 +35,39 @@ body {
     color: var(--GrayishBlue);
     line-height: 1.8em;
     padding-bottom: 1em;
+}
+
+.Subscription {
+    background: var(--Cyan);
+}
+
+.wrapper {
+    margin: 1.6em;
+}
+
+.MonthSub {
+    color: var(--LightGray);
+    font-size: 1.1em;
+    padding-top: 1.4em;
+    font-weight: bold;
+    padding-bottom: ;
+}
+
+.realprice {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.number {
+    color: var(--LightGray);
+    font-weight: bold;
+    font-size: 2.1em;
+}
+
+.month {
+    padding-left:.9em;
+    font-size: 1em;
+    opacity: 0.5;
+    color: var(--LightGray);
 }
