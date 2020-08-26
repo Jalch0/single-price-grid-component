@@ -1,7 +1,6 @@
 /* globals */
 body {
     background: var(--background);
-    margin: 0;
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     min-height: 100vh;
@@ -123,6 +122,12 @@ body {
     font-size: 0.9em;
     opacity: .7;
     line-height: 1.4em;
+}
+
+ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 375px) {
